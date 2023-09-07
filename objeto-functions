@@ -1,0 +1,135 @@
+//const professor = {
+    //nome: "Vitor",
+    //dade: 27,
+    //email: 'vitor@gmail.com'
+   // }
+    
+    //console.log(professor.idade)
+    //console.log(professor["email"])
+    
+    //professor.nome = 'Mika'
+    //professor['email'] = 'profmika@gmail.com'
+    
+    const filme = {
+    nome: "Até o Ultimo Homem",
+    ano: 2016,
+   diretor: "Mwl Gibson",
+    elenco: ["Andrew Garfield", "luke bracey", "vince vaughn"],
+    assistido: true, 
+    }
+    
+    console.log (filme.nome)
+    console.log (filme.ano)
+    console.log (filme["elenco"])
+    console.log (filme["assistido"])
+    console.log(filme["diretor"])
+
+    //const pessoa = {
+    //nome: "joao",
+    //idade: 23,
+    //generomusical: "rock metal",
+    //}
+
+    //console.log("O nome da pessoa é" + pessoa.nome + "ela tem" + pessoa.idade + "anos" + "e gosta muito de" + pessoa.generomusical );
+
+//const donodopet = {
+//nome: "vitor hugo",
+//pet: {
+//nomedopet: "wanda",
+//raca: "vira-lata",
+//idade: 1
+//}
+//}
+
+//const curso = {
+//nome: "Notirno frontend",
+//linguagens: ["JS", "CSS", "HTML"]
+
+
+////}
+//console.log(curso,linguagens(0))
+
+
+//const professores = [
+//{nome: "andrei", modulo: 1},
+//{nome: "vitor", modulo: 2},
+//{nome: "mina", modulo: 3}
+//////]
+////console.log (professores[1].nome)
+
+//c//onst curso = {
+//nome: "frontend"
+//linguagens: ["JS", "CSS", "HTML"]
+//}
+
+//NOTAÇÃO DE PONTO: 
+////curso.numeroestudantes=50
+
+//NOTAÇÃO DE COLCHETES:
+//curso['numerodeestudantes']
+
+//filme.personagens = ["Desmond t.", "smitty ryker", "sergeant howell", "captain glover"]
+
+//console.log(filme.nome)
+//console.log(filme.ano)
+//console.log(filme.diretor)
+//console.log(filme.elenco)
+//console.log(filme.assistido)
+
+//console.log
+
+
+//let objetp = {
+  //  direçao: "diretor"
+    //nome: ("nome do filme").toString(),
+    //ano: Number(1234),
+    //elenco: ["ator", "ator 2", "ator 3"],
+    //javiu:Boolean(false),
+//}
+//objetp.personagens = ["personagens", "personagem 2", "personagem 3"];
+//console.log (objetp.elenco[0] + " ->" + objetp.personagens[0]);
+//console.log (objetp.elenco[1] + " ->" + objetp.personagens[1]);
+//c/onsole.log (objetp.elenco[2] + " ->" + objetp.personagens[2]);
+
+//objetp.elenco[0] = "xuxa";
+
+//console.log(objetp);
+
+
+//c/onst usuario = {
+//nome: 'prof' , 
+//idade: 25,
+//email: 'prof@senacrs.com.br',
+//cidade: 'SAO PAULO'
+
+//}
+
+
+//const novousuario = {
+//...usuario,
+//nome: 'joao',
+//idade: 28
+
+//}
+
+//const listadenomes = ["mika", "paula", "victor"]
+
+//const copialistadenomes = [...listadenomes]
+//copialistadenomes[0] = "vitor"
+
+//console.log(copialistadenomes) 
+
+function coppessoa(novidade){
+let novidadepessoa = {
+    ...novidade,
+    nome: "pedro",
+    comidaspreferidas: ["sushi", "xis", "alaminuta"],
+
+    best: {
+nome2: "bernardo",
+idade: 16,
+
+    } }
+console.log("O nome da pessoa é" + novidadepessoa.nome + "e suas comidas preferidas são" + novidadepessoa.comidaspreferidas + "seu melhor amigo se chama" + novidadepessoa.nome2 + "e tem" + novidadepessoa.idade + "anos ")
+   
+}
